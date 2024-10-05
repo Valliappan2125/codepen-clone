@@ -1,5 +1,5 @@
 import "codemirror/lib/codemirror.css";
-import "codemirror/theme/material.css";
+import "codemirror/theme/dracula.css";
 import "codemirror/mode/xml/xml";
 import "codemirror/mode/javascript/javascript";
 import "codemirror/mode/css/css";
@@ -32,7 +32,7 @@ const Editor = ({ DisplayName, language, value, onChange }) => {
             mode: language,
             lint: true,
             lineWrapping: true,
-            theme: 'material' 
+            theme: 'dracula'
         }}
       />
     </div>

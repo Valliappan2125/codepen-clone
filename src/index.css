@@ -3,7 +3,7 @@ body{
 }
 
 .top-pane{
-    background-color: hsl(225, 6%, 25%);
+    background-color: hsl(225, 38%, 49%);
 }
 
 .pane{
@@ -17,7 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
-    background-color: hsl(225, 6%, 25%);
+    background-color: hsl(225, 31%, 49%);
 }
 
 .editor-container.collapsed{
@@ -32,7 +32,7 @@ body{
 .editor-title{
     display: flex;
     justify-content: space-between;
-    background-color: hsl(225, 6%, 13%);
+    background-color: hsl(230, 6%, 18%);
     color: white;
     padding: 0.5rem;
     border-top-right-radius: 0.5rem;
@@ -41,14 +41,16 @@ body{
 
 .CodeMirror{
     height: 100% !important;
+    background-color: #1E3E62;
+    color: white;
 }
-
 
 .code-mirror-wrapper{
     flex-grow: 1;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     overflow: hidden;
+    background-color: #1E3E62;
 }
 
 .btn{
